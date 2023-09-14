@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>R-P-S with auto play </title>
+
+    <link rel="stylesheet" href="12-Rock-Paper-Scissors.css">
+</head>
+
+<body>
+    <div > Rock Paper Scissors</div>
+    <br>
+    <div> 
+        <button class="move-btn js-rock-btn"  >
+            <img class="move-icon" src="img/Rock.png" alt="Rock">
+        </button>
+
+        <button class="move-btn js-paper-btn" >
+            <img class="move-icon" src="img/Paper.png" alt="Paper">
+        </button>
+
+        <button class="move-btn js-scissors-btn" >
+            <img class="move-icon" src="img/Scissors.png" alt="Scissors">
+        </button>
+
+        <p class="js-result  result"> </p>
+        <p class="js-moves moves"></p>
+        <p class="js-score score"></p>
+        <button class="js-reset-btn reset-btn" onclick="resetScore();"> Reset Score</button>
+        <button class="js-auto-play-btn auto-play-btn" onclick="autoPlay();">Auto Play</button>
+    </div>
+
+    <script src="12-Rock-Paper-Scissors.js">
+    </script>
+</body>
+
+</html>
